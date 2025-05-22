@@ -69,9 +69,13 @@ This experiment demonstrates that GPT-Neo and GPT-2, while both powerful languag
 
 ## Conclusion
 This experiment demonstrates how Python can serve as a powerful bridge between multiple AI tools, enabling developers to create multi-model pipelines that evaluate, compare, or combine the strengths of various services. This integration supports:
+   
    • Better decision-making on tool selection
+   
    • Automation of evaluation and benchmarking
+   
    • Enhanced productivity by combining outputs
+
 Such a system is scalable and can be adapted for broader use cases including multi-tool chatbots, creative content workflows, or research benchmarking.
 
 # Result
