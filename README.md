@@ -39,6 +39,7 @@ To develop Python code that is compatible with multiple AI tools and platforms, 
 ##  Example Code Snippet
 
 ```python
+
 import requests
 import json
 
@@ -47,11 +48,13 @@ def call_openai(prompt):
     headers = {
         "Authorization": "Bearer YOUR_OPENAI_API_KEY",
         "Content-Type": "application/json"
+
     }
     data = {
         "model": "text-davinci-003",
         "prompt": prompt,
         "max_tokens": 150
+
     }
     response = requests.post(url, headers=headers, json=data)
     return response.json()["choices"][0]["text"]
@@ -60,6 +63,7 @@ def call_openai(prompt):
 prompt = "Summarize the basics of blockchain technology."
 response_openai = call_openai(prompt)
 print("OpenAI Response:", response_openai)
+
 ```
 
 ## Summary
